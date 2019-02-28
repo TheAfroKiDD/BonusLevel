@@ -77,11 +77,34 @@ public class MyGdxGame extends ApplicationAdapter {
 		batch.begin();
 
 
-        batch.draw(VortexReg,-590,240,0,0,VortexReg.getRegionWidth(),VortexReg.getRegionHeight(),6/PPM,6/PPM,0);
-        batch.draw(VortexReg,-290,240,0,0,VortexReg.getRegionWidth(),VortexReg.getRegionHeight(),6/PPM,6/PPM,0);
-        batch.draw(VortexReg,-130,170,0,0,VortexReg.getRegionWidth(),VortexReg.getRegionHeight(),8/PPM,8/PPM,0);
-        batch.draw(VortexReg,120,240,0,0,VortexReg.getRegionWidth(),VortexReg.getRegionHeight(),6/PPM,6/PPM,0);
-        batch.draw(VortexReg,450,240,0,0,VortexReg.getRegionWidth(),VortexReg.getRegionHeight(),6/PPM,6/PPM,0);
+ 
+
+
+
+        Vortex.draw(batch);
+        Vortex.rotate(1.5f);
+        Vortex.setPosition(-790,90);
+        Vortex.setScale(6/PPM,8.6f/PPM);
+
+        Vortex.draw(batch);
+        Vortex.rotate(1.5f);
+        Vortex.setPosition(-440,90);
+        Vortex.setScale(6/PPM,8.6f/PPM);
+
+        Vortex.draw(batch);
+        Vortex.rotate(1f);
+        Vortex.setPosition(-250,40);
+        Vortex.setScale(8/PPM,11.6f/PPM);
+
+        Vortex.draw(batch);
+        Vortex.rotate(1.5f);
+        Vortex.setPosition(-30,90);
+        Vortex.setScale(6/PPM,8.6f/PPM);
+
+        Vortex.draw(batch);
+        Vortex.rotate(1.5f);
+        Vortex.setPosition(300,90);
+        Vortex.setScale(6/PPM,8.6f/PPM);
 
 
         batch.draw(WallReg,-611,181,0,0,WallReg.getRegionWidth(),WallReg.getRegionHeight(),8/PPM,7/PPM,0);
@@ -89,7 +112,7 @@ public class MyGdxGame extends ApplicationAdapter {
 		batch.draw(DoorReg,-115,181,0,0,DoorReg.getRegionWidth(),DoorReg.getRegionHeight(),14.6f/PPM,7/PPM,0);
 		batch.draw(FloorReg,-611,-401,0,0,FloorReg.getRegionWidth(),FloorReg.getRegionHeight(),19.6f/PPM,9.31f/PPM,0);
 
-        Vortex.draw(batch);
+
 
 
         batch.end();

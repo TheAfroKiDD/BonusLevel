@@ -20,9 +20,9 @@ public class AnimatedSprite extends Sprite {
     Vector2 position;
     boolean moved=false;
 
-    public AnimatedSprite(String atlasString,Vector2 position,float rotation){
+    public AnimatedSprite(String atlasString,Vector2 position,String size){
 
-
+        super (new Texture(size));
         this.position=position;
         this.setX(this.position.x);
         this.setY(this.position.y);
