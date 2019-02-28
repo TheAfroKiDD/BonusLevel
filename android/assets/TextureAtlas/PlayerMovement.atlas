@@ -1,0 +1,13 @@
+
+PlayerMovement.png
+size: 128,128
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Player
+  rotate: false
+  xy: 2, 2
+  size: 77, 95
+  orig: 77, 95
+  offset: 0, 0
+  index: -1
